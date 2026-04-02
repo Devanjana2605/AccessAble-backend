@@ -86,3 +86,42 @@ TWILIO_ACCOUNT_SID=your_account_sid
 TWILIO_AUTH_TOKEN=your_auth_token
 TWILIO_PHONE_NUMBER=your_twilio_number
 ```
+## BACKEND RESPONSIBILITIES
+
+The backend performs operations such as:
+
+Receiving SOS emergency requests
+Sending SMS alerts with live location links
+Returning success or failure responses to the frontend
+Acting as a bridge between the frontend and Twilio API
+FRONTEND CONNECTION
+
+This backend is part of the full AccessAble system and works together with the frontend repository.
+
+## FRONTEND HANDLES
+User interface
+Dashboards
+Request forms
+Tracking pages
+Chat and reviews
+Backend handles:
+SOS processing
+SMS integration
+API communication
+
+## FUTURE IMPROVEMENTS
+Email-based SOS fallback
+Improved logging and error handling
+Cloud deployment (Render / Railway / AWS)
+Authentication middleware
+Structured API routing
+Scalable backend architecture
+
+## AUTHOR
+
+Devanjana A
+
+## NOTE
+
+This repository represents the backend part of the AccessAble project.
+For full functionality, it should be used together with the frontend repository.
